@@ -1,11 +1,11 @@
 ﻿--Tabla categoria
 create table categoria(
 	idcategoria int primary key identity,
-	nombre varcharr(50) not null unique,
+	nombre varchar(50) not null unique,
 	descripcion varchar(256) null,
 	condicion bit default(1)
 );
-
+insert into categoria (nombre, descripcion) values ('Cereales', '')
 --Tabla Articulo
 create table articulo(
 	idarticulo int primary key identity,
@@ -49,8 +49,8 @@ create table usuario(
 	direccion varchar(70) null,
 	telefono varchar(20) null,
 	email varchar(50) not null,
-	password_hash verbinary not null,
-	password_salt verbinary not null,
+	password_hash varbinary not null,
+	password_salt varbinary not null,
 	condicion bit default(1),
 	foreign key (idrol) references rol (idrol)
 )
@@ -67,7 +67,7 @@ create table ingreso(
 	impuesto decimal(4,2) not null,
 	total decimal(11,2) not null,
 	estado varchar(20) not null,
-	foreign key (idpproveedor) references persona(idpersona),
+	foreign key (idproveedor) references persona(idpersona),
 	foreign key (idusuario) references usuario (idusuario)
 )
 
