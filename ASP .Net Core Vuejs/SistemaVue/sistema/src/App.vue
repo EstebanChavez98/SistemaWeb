@@ -42,7 +42,7 @@
               </v-list-tile-action>
               <v-list-tile-content>
                 <v-list-tile-title>
-                  Aticulos
+                  Articulos
                 </v-list-tile-title>
               </v-list-tile-content>
             </v-list-tile>
@@ -204,7 +204,7 @@
         <v-flex text-xs-center>
           <v-card flat tile color="primary" class="white--text">
             <v-card-text class="white--text pt-0">
-              Chavez &copy;2019
+              IncanatoIT &copy;2018
             </v-card-text>
           </v-card>
         </v-flex>

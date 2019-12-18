@@ -17,3 +17,24 @@ C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\Sist
 C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.csproj.CopyComplete
 C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.dll
 C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Web.deps.json
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Web.runtimeconfig.json
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Web.runtimeconfig.dev.json
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Web.dll
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Web.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Datos.dll
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Entidades.dll
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Datos.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.RazorAssemblyInfo.cache
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.RazorAssemblyInfo.cs
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.AssemblyInfo.cs
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.RazorTargetAssemblyInfo.cache
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.csproj.CopyComplete
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.dll
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\obj\Debug\netcoreapp2.1\Sistema.Web.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Web\bin\Debug\netcoreapp2.1\Properties\launchSettings.json

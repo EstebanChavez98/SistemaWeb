@@ -2,19 +2,17 @@
     <v-layout align-start>
         <v-flex>
             <v-toolbar flat color="white">
-                <v-toolbar-title>Categorias</v-toolbar-title>
+                <v-toolbar-title>Categorías</v-toolbar-title>
                 <v-divider
                 class="mx-2"
                 inset
                 vertical
                 ></v-divider>
                 <v-spacer></v-spacer>
-                <v-text-field class="text-xs-center" v-model="search" append-icon="search" label="Busqueda" single-line hide-details></v-text-field>
+                <v-text-field class="text-xs-center" v-model="search" append-icon="search" label="Búsqueda" single-line hide-details></v-text-field>
                 <v-spacer></v-spacer>
                 <v-dialog v-model="dialog" max-width="500px">
-                <template v-slot:activator="{ on }">
-                    <v-btn color="primary" dark class="mb-2" v-on="on">New Item</v-btn>
-                </template>
+                <v-btn slot="activator" color="primary" dark class="mb-2">New Item</v-btn>
                 <v-card>
                     <v-card-title>
                     <span class="headline">{{ formTitle }}</span>
@@ -44,58 +42,66 @@
         
                     <v-card-actions>
                     <v-spacer></v-spacer>
-                    <v-btn color="blue darken-1" flat @click="close">Cancel</v-btn>
-                    <v-btn color="blue darken-1" flat @click="save">Save</v-btn>
+                    <v-btn color="blue darken-1" flat @click.native="close">Cancel</v-btn>
+                    <v-btn color="blue darken-1" flat @click.native="save">Save</v-btn>
                     </v-card-actions>
                 </v-card>
                 </v-dialog>
             </v-toolbar>
             <v-data-table
                 :headers="headers"
-                :items="categorias"
+                :items="desserts"
                 :search="search"
                 class="elevation-1"
             >
-                <template v-slot:items="props">
-                    <td class="justify-center layout px-0">
-                        <v-icon
-                        small
-                        class="mr-2"
-                        @click="editItem(props.item)"
-                        >
-                        edit
-                        </v-icon>
-                        <v-icon
-                        small
-                        @click="deleteItem(props.item)"
-                        >
-                        delete
-                        </v-icon>
-                    </td>
-                    <td>{{ props.item.nombre }}</td>
-                    <td class="text-xs-right">{{ props.item.descripcion }}</td>
-                    <td class="text-xs-right">{{ props.item.condicion }}</td>
+                <template slot="items" slot-scope="props">
+                <td>{{ props.item.name }}</td>
+                <td class="text-xs-right">{{ props.item.calories }}</td>
+                <td class="text-xs-right">{{ props.item.fat }}</td>
+                <td class="text-xs-right">{{ props.item.carbs }}</td>
+                <td class="text-xs-right">{{ props.item.protein }}</td>
+                <td class="justify-center layout px-0">
+                    <v-icon
+                    small
+                    class="mr-2"
+                    @click="editItem(props.item)"
+                    >
+                    edit
+                    </v-icon>
+                    <v-icon
+                    small
+                    @click="deleteItem(props.item)"
+                    >
+                    delete
+                    </v-icon>
+                </td>
                 </template>
-                <template v-slot:no-data>
-                <v-btn color="primary" @click="initialize">Resetear</v-btn>
+                <template slot="no-data">
+                <v-btn color="primary" @click="initialize">Reset</v-btn>
                 </template>
             </v-data-table>
         </v-flex>
     </v-layout>
 </template>
-
 <script>
     import axios from 'axios'
-    export default{
+    export default {
         data(){
-            return{
-                categorias: [],
+            return {
+                categorias:[],
                 dialog: false,
                 headers: [
-                { text: 'Opciones', value: 'opciones', sortable: false }
-                { text: 'Nombres', value: 'nombre' },
-                { text: 'Descripcion', value: 'descripcion', sortable: false},
-                { text: 'Estado', value: 'condicion', sortable: false},              
+                {
+                    text: 'Dessert (100g serving)',
+                    align: 'left',
+                    sortable: false,
+                    value: 'name'
+                },
+                { text: 'Calories', value: 'calories' },
+                { text: 'Fat (g)', value: 'fat' },
+                { text: 'Carbs (g)', value: 'carbs' },
+                { text: 'Protein (g)', value: 'protein' },
+                { text: 'Actions', value: 'name', sortable: false }
                 ],
                 search: '',
                 desserts: [],
@@ -130,18 +136,8 @@
 
         created () {
             this.initialize()
-            this.listar();
         },
         methods:{
-            listar(){
-                let me = this;
-                axios.get('api/Categorias/Listar').then(function(response){
-                    //console.log(response);
-                    me.categorias = response.data;
-                }).catch(function(error){
-                    console.log(error);
-                })
-            },
             initialize () {
             this.desserts = [
                 {
@@ -244,6 +240,6 @@
             }
             this.close()
             }
-        }
+        }        
     }
 </script>

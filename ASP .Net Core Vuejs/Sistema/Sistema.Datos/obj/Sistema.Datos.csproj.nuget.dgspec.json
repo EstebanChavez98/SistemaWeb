@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {}
+    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {
+    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
         "projectName": "Sistema.Datos",
-        "projectPath": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
-        "packagesPath": "C:\\Users\\EstebanChavezVerdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EstebanChavezVerdin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
-                "projectPath": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+              "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
               }
             }
           }
@@ -63,27 +60,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "projectName": "Sistema.Entidades",
-        "projectPath": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
-        "packagesPath": "C:\\Users\\EstebanChavezVerdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EstebanChavezVerdin\\OneDrive - JORGE LUIS FELIX CHAIDEZ\\Escritorio\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\obj\\",
+        "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\EstebanChavezVerdin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -115,10 +115,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

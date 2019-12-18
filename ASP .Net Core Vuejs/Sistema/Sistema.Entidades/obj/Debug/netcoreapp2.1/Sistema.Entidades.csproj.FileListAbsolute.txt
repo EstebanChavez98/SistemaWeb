@@ -7,3 +7,11 @@ C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\Sist
 C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.AssemblyInfo.cs
 C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.dll
 C:\Users\EstebanChavezVerdin\OneDrive - JORGE LUIS FELIX CHAIDEZ\Escritorio\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\bin\Debug\netcoreapp2.1\Sistema.Entidades.deps.json
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\bin\Debug\netcoreapp2.1\Sistema.Entidades.dll
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\bin\Debug\netcoreapp2.1\Sistema.Entidades.pdb
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.csprojAssemblyReference.cache
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.AssemblyInfo.cs
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.dll
+C:\Users\user\Desktop\SistemaWeb\ASP .Net Core Vuejs\Sistema\Sistema.Entidades\obj\Debug\netcoreapp2.1\Sistema.Entidades.pdb

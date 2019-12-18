@@ -1,4 +1,9 @@
-﻿--Tabla categoria
+﻿create database Sistema
+go
+use Sistema
+go
+
+--Tabla categoria
 create table categoria(
 	idcategoria int primary key identity,
 	nombre varchar(50) not null unique,
