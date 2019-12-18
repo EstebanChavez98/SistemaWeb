@@ -140,8 +140,10 @@
         },
         methods:{
             listar(){
+                let me = this;
                 axios.get('http://localhost:55425/api/Categorias/Listar').then(function(response){
-                    console.log(response);
+                    //console.log(response);
+                    me.categorias = response.data;
                 }).catch(function(error){
                     console.log(error);
                 });
