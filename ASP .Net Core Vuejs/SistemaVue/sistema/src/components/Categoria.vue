@@ -136,8 +136,17 @@
 
         created () {
             this.initialize()
+            this.listar()
         },
         methods:{
+            listar(){
+                axios.get('http://localhost:55425/api/Categorias/Listar').then(function(response){
+                    console.log(response);
+                }).catch(function(error){
+                    console.log(error);
+                });
+            },
+
             initialize () {
             this.desserts = [
                 {
