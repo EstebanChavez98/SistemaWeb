@@ -204,7 +204,7 @@
         <v-flex text-xs-center>
           <v-card flat tile color="primary" class="white--text">
             <v-card-text class="white--text pt-0">
-              IncanatoIT &copy;2018
+              Esteban Chavez &copy;2019
             </v-card-text>
           </v-card>
         </v-flex>
