@@ -10,6 +10,7 @@ namespace Sistema.Datos
     public class DbContextSistema : DbContext
     {
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Articulo> Articulos { get; set; }
         //Constructor
         public DbContextSistema(DbContextOptions<DbContextSistema> options) : base(options)
         {
@@ -21,6 +22,7 @@ namespace Sistema.Datos
             //Indicando a la clase padre que cuando cree el modelo,, que cree el modelBuilder
             base.OnModelCreating(modelBuilder);
             modelBuilder.ApplyConfiguration(new CategoriaMap());
+            modelBuilder.ApplyConfiguration(new ArticuloMap());
         }
     }
 }
