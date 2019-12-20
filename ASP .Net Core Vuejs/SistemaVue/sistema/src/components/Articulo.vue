@@ -160,9 +160,7 @@
                 editedIndex: -1,
                 id: '',
                 idcategoria:'',
-                categorias:[     
-                    {text: 'Categoria 1', value:1},
-                    {text: 'Categoria 2', value:2}              
+                categorias:[                   
                 ],
                 codigo: '',
                 nombre: '',
@@ -216,25 +214,27 @@
                 });
             },
             editItem (item) {
-                this.id=item.idcategoria;
+                this.id=item.idarticulo;
+                this.idcategoria=item.idcategoria;
+                this.codigo=item.codigo;
                 this.nombre=item.nombre;
+                this.stock=item.stock;
+                this.precio_venta=item.precio_venta;
                 this.descripcion=item.descripcion;
                 this.editedIndex=1;
                 this.dialog = true
             },
-
-            deleteItem (item) {
-                const index = this.desserts.indexOf(item)
-                confirm('Are you sure you want to delete this item?') && this.desserts.splice(index, 1)
-            },
-
             close () {
                 this.dialog = false;
                 this.limpiar();
             },
             limpiar(){
                 this.id="";
+                this.idcategoria="";
+                this.codigo="";
                 this.nombre="";
+                this.stock="";
+                this.precio_venta="";
                 this.descripcion="";
                 this.editedIndex=-1;
             },
@@ -246,9 +246,13 @@
                     //Código para editar
                     //Código para guardar
                     let me=this;
-                    axios.put('api/Categorias/Actualizar',{
-                        'idcategoria':me.id,
+                    axios.put('api/Articulos/Actualizar',{
+                        'idarticulo':me.id,
+                        'idcategoria':me.idcategoria,
+                        'codigo':me.codigo,
                         'nombre': me.nombre,
+                        'stock':me.stock,
+                        'precio_venta':me.precio_venta,
                         'descripcion': me.descripcion
                     }).then(function(response){
                         me.close();
@@ -260,8 +264,12 @@
                 } else {
                     //Código para guardar
                     let me=this;
-                    axios.post('api/Categorias/Crear',{
+                    axios.post('api/Articulos/Crear',{
+                        'idcategoria':me.idcategoria,
+                        'codigo':me.codigo,
                         'nombre': me.nombre,
+                        'stock':me.stock,
+                        'precio_venta':me.precio_venta,
                         'descripcion': me.descripcion
                     }).then(function(response){
                         me.close();
@@ -277,7 +285,16 @@
                 this.validaMensaje=[];
 
                 if (this.nombre.length<3 || this.nombre.length>50){
-                    this.validaMensaje.push("El nombre debe tener más de 3 caracteres y menos de 50 caracteres");
+                    this.validaMensaje.push("El nombre debe tener más de 3 caracteres y menos de 50 caracteres.");
+                }
+                if (!this.idcategoria){
+                    this.validaMensaje.push("Seleccione una categoría.");
+                }
+                if (!this.stock || this.stock==0){
+                    this.validaMensaje.push("Ingrese el stock inicial del artículo.");
+                }
+                if (!this.precio_venta || this.precio_venta==0){
+                    this.validaMensaje.push("Ingrese el precio de venta del artículo.");
                 }
                 if (this.validaMensaje.length){
                     this.valida=1;
@@ -287,7 +304,7 @@
             activarDesactivarMostrar(accion,item){
                 this.adModal=1;
                 this.adNombre=item.nombre;
-                this.adId=item.idcategoria;                
+                this.adId=item.idarticulo;                
                 if (accion==1){
                     this.adAccion=1;
                 }
@@ -303,7 +320,7 @@
             },
             activar(){
                 let me=this;
-                axios.put('api/Categorias/Activar/'+this.adId,{}).then(function(response){
+                axios.put('api/Articulos/Activar/'+this.adId,{}).then(function(response){
                     me.adModal=0;
                     me.adAccion=0;
                     me.adNombre="";
@@ -315,7 +332,7 @@
             },
             desactivar(){
                 let me=this;
-                axios.put('api/Categorias/Desactivar/'+this.adId,{}).then(function(response){
+                axios.put('api/Articulos/Desactivar/'+this.adId,{}).then(function(response){
                     me.adModal=0;
                     me.adAccion=0;
                     me.adNombre="";

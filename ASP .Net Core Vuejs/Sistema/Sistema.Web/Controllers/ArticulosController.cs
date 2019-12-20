@@ -42,6 +42,8 @@ namespace Sistema.Web.Controllers
             });
         }
 
+       
+
         // GET: api/Articulos/Mostrar/1
         [HttpGet("[action]/{id}")]
         public async Task<IActionResult> Mostrar([FromRoute] int id)

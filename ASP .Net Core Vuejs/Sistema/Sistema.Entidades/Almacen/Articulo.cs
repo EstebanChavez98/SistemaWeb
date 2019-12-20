@@ -7,8 +7,6 @@ namespace Sistema.Entidades.Almacen
 {
     public class Articulo
     {
-        public bool condicion;
-
         public int idarticulo { get; set; }
         [Required]
         public int idcategoria { get; set; }
@@ -20,6 +18,7 @@ namespace Sistema.Entidades.Almacen
         [Required]
         public int stock { get; set; }
         public String descripcion { get; set; }
+        public bool condicion { get; set; }
         public Categoria categoria { get; set; }
     }
 }
