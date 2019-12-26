@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
 
-namespace Sistema.Datos.Mapping.Ventas
+namespace Sistema.Entidades.Ventas
 {
     public class Persona
     {

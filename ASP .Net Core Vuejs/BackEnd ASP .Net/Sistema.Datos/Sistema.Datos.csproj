@@ -13,11 +13,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping\Ventas\" />
+    <ProjectReference Include="..\Sistema.Entidades\Sistema.Entidades.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sistema.Entidades\Sistema.Entidades.csproj" />
+    <Folder Include="Mapping\Ventas\" />
   </ItemGroup>
 
 </Project>
