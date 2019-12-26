@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {}
+    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj": {
+    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj",
         "projectName": "Sistema.Datos",
-        "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\Sistema.Datos.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Datos\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
-                "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj"
+              "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+                "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+    "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "projectName": "Sistema.Entidades",
-        "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\Sistema.Entidades.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\Sistema\\Sistema.Entidades\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -54,8 +54,8 @@ create table usuario(
 	direccion varchar(70) null,
 	telefono varchar(20) null,
 	email varchar(50) not null,
-	password_hash varbinary not null,
-	password_salt varbinary not null,
+	password_hash varbinary(max) not null,
+	password_salt varbinary(max) not null,
 	condicion bit default(1),
 	foreign key (idrol) references rol (idrol)
 )
