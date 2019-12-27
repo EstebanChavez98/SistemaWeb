@@ -1,2 +1,9 @@
-# SistemaWeb
-ASP .NET core, SQL server, Vue.js, Vuetify
+# Sistema Web
+
+FrontEnd with:
+
+* Vue.js, Vuetify
+
+BackEnd with:
+
+* ASP .Net Core with C# using Entity Framework
