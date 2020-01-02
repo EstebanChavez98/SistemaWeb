@@ -115,3 +115,4 @@ create table detalle_venta(
 	foreign key (idventa) references venta(idventa) on delete cascade,
 	foreign key (idarticulo) references articulo(idarticulo)
 )
+
