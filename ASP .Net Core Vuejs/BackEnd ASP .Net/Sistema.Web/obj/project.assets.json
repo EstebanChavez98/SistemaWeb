@@ -12568,20 +12568,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {}
+    "C:\\Users\\Antonelo\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\Sistema.Web.csproj",
+      "projectUniqueName": "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\Sistema.Web.csproj",
       "projectName": "Sistema.Web",
-      "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\Sistema.Web.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\obj\\",
+      "projectPath": "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\Sistema.Web.csproj",
+      "packagesPath": "C:\\Users\\Antonelo\\.nuget\\packages\\",
+      "outputPath": "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Antonelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -12593,11 +12598,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj"
+            "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj": {
+              "projectPath": "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Datos\\Sistema.Datos.csproj"
             },
-            "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj": {
-              "projectPath": "C:\\Users\\user\\Desktop\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj"
+            "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj": {
+              "projectPath": "D:\\respaldo pc\\SistemaWeb\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Sistema.Entidades.csproj"
             }
           }
         }
@@ -12643,7 +12648,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

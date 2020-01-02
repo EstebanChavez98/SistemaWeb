@@ -44,6 +44,7 @@ create table rol(
 	condicion bit default(1)
 )
 
+insert into rol values ('Administrador', 'Administrador del sistema', 1), ('Almacenero', 'Almacenero de Sucursal', 1)
 --Tabla Usuario
 create table usuario(
 	idusuario int primary key identity,

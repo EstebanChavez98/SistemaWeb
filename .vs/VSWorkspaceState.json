@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ASP .Net Core Vuejs",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Almacen",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Usuarios",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Entidades\\Ventas",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web",
+    "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\Controllers"
+  ],
+  "SelectedNode": "\\ASP .Net Core Vuejs\\BackEnd ASP .Net\\Sistema.Web\\Controllers\\UsuariosController.cs",
+  "PreviewInSolutionExplorer": false
+}
