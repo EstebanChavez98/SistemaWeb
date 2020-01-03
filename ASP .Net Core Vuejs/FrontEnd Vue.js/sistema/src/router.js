@@ -11,7 +11,7 @@ import Login from './components/Login.vue'
 
 Vue.use(Router)
 
-export default new Router({
+var router =  new Router({
   mode: 'history',
   base: process.env.BASE_URL,
   routes: [
@@ -57,3 +57,28 @@ export default new Router({
     }
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  if (to.matched.some(record => record.meta.libre)){
+    next()
+  } else if (store.state.usuario && store.state.usuario.rol== 'Administrador'){
+    if (to.matched.some(record => record.meta.administrador)){
+      next()
+    }
+  }else if (store.state.usuario && store.state.usuario.rol== 'Almacenero'){
+    if (to.matched.some(record => record.meta.almacenero)){
+      next()
+    }
+  }else if (store.state.usuario && store.state.usuario.rol== 'Vendedor'){
+    if (to.matched.some(record => record.meta.vendedor)){
+      next()
+    }
+  } else{
+    next({
+      name: 'login'
+    })
+  }
+})
+
+export default router
+
